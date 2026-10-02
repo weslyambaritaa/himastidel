@@ -63,16 +63,6 @@ export default function LoginPage() {
                 <div className="flex flex-col gap-6">
                     <Card>
                         <CardHeader className="text-center">
-                            <div className="mx-auto">
-                                <img
-                                    src="/img/logo/sdi-logo-dark-text.png"
-                                    alt="Logo"
-                                    style={{
-                                        maxWidth: "156px",
-                                        height: "auto",
-                                    }}
-                                />
-                            </div>
                             <FieldSeparator className="*:data-[slot=field-separator-content]:bg-card">
                                 {appName}
                             </FieldSeparator>
